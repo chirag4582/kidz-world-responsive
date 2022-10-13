@@ -1,0 +1,76 @@
+
+.logo{height:28px ;}
+.one{display: flex;
+justify-content: space-between;
+margin-top: 0px;
+align-items: center;}
+.one-inside{display: flex;
+align-items: center;}
+.cart-icon{height: 28px;}
+.cart-text{color: black;}
+.two>img{height: 320px;
+width: 100%;}
+.books>img{height: 200px;
+margin-bottom: 0px;
+padding-bottom: 0px;}
+.booktitle{margin: 0px;
+font-weight: 700;}
+.author,.desc{margin: 2px;
+color: rgb(115, 111, 111);}
+.price{display: flex;
+max-width: 150px;
+justify-content: space-between;
+align-items: center;}
+.cartbutton{background-color: rgb(88, 157, 209);
+border: none;
+border-radius: 7px;
+color: white;
+text-align: center;
+display: flex;
+align-items: center;
+height: 25px;
+transition: 0.15s;}
+.cart{height: 20px;}
+.three,.four,.five{display: flex;
+justify-content: space-around;}
+.games>img{height: 200px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;}
+.price2{display: flex;
+        max-width: 220px;
+        justify-content: space-between;
+        align-items: center;}
+        .cartbutton{background-color: rgb(88, 157, 209);}
+.six{background-color: black;
+display: flex;
+justify-content: space-between;
+align-items: center;}
+.last{height: 200px;
+border-radius: 100%;
+width: 150px;}
+.last-text{color: white;
+}
+p{color: white;}
+.cartbutton:hover{cursor: pointer;
+background-color: rgb(72, 241, 69);}
+.dark{background-color: rgb(77, 80, 80);
+color: white;}
+@media (max-width:600px)
+{
+    body{
+        background-color: rgb(186, 250, 250);
+    }
+    .two>img{
+        width: 100%;
+        height: 50%;
+    }
+    h1{
+        font-size: medium;
+        text-align: center;
+    }
+    .three,.four,.five{
+        flex-direction: column;
+        align-items: center;
+    }
+   
+}
